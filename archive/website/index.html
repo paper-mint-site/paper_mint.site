@@ -1,0 +1,36 @@
+<!--
+what could i need a website for?
+game, game dev site, self, blog, some kind of entertainment thing. like a webcomic
+
+-->
+
+<style>
+    a:link {
+        color: white;
+    }
+
+    a:visited {
+        color: white;
+    }
+</style>
+
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+<body style="background-color:black;">
+
+    <!-- This is the nav header. will stay present. the rest of the site will work in the iframe   -->
+    <p style="text-align: center; color: white;"> Video Game </p>
+
+    <p style="text-align: center; color: white;">
+
+        <a href="home_page.html" target="main_frame"> home </a> | <a href="about_page.html" target="main_frame"> about </a> | <a href="music_page.html" target="main_frame"> music_page </a> | <a href="download_page.html" target="main_frame"> downloads </a>
+
+    </p>
+
+
+    <!-- This is the iframe where the entire website will take place.-->
+    <p>
+        <iframe src="home_page.html" height="95%" width="100%" name="main_frame" title="inner page">
+        </iframe>
+
+    </p>
